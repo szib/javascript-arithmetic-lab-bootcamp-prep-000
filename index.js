@@ -7,4 +7,4 @@ const inc = n => ++n
 const dec = n => --n
 
 const makeInt = n => parseInt(n, 10)
-const preserveDecimal = n => 
+const preserveDecimal = n => parseFloat(n)
