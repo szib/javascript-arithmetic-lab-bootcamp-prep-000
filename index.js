@@ -6,4 +6,4 @@ const divide = (a,b) => a / b
 const inc = (n) => ++n
 const dec = (n) => --n
 
-const makeInt = (n) => parseInt(n)
+const makeInt = (n) => parseInt(n, 10)
